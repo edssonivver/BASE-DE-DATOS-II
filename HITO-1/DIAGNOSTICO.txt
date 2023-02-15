@@ -1,0 +1,29 @@
+QUE ES UNA BASE DE DATOS RELACIONAL:
+
+Una base de datos relacional es aquella que se encuentra conformada por tablas.
+A la ves estas tablas van conformadas por filas y columnas donde se almacenaran los datos.
+
+QUE ES DML:
+(Data Manipulation Language) en español Lenguaje de Manipulacion de datos. 
+
+Estos elementos del DML nos permite:
+ 
+SELECT: Utilizado para consultar registros de la base de datos que satisfagan un criterio determinado.
+INSERT: Utilizado para cargar de datos en la base de datos en una única operación.
+UPDATE: Utilizado para modificar los valores de los campos y registros especificados
+DELETE: Utilizado para eliminar registros de una tabla de una base de datos.
+
+QUE ES DDL:
+DDL significa Data Definition Language o Lenguaje de Definición de Datos, en español.
+Este lenguaje permite definir las tareas de las estructuras que almacenarán los datos.
+
+Estos elementos del DDL nos permite:
+
+CREATE: Utilizado para crear nuevas tablas, campos e índices.
+ALTER: Utilizado para modificar las tablas agregando campos o cambiando la definición de los campos.
+DROP: Empleado para eliminar tablas e índices.
+TRUNCATE: Empleado para eliminar todos los registros de una tabla.
+COMMENT: Utilizado para agregar comentarios al diccionario de datos.
+RENAME: Tal como su nombre lo indica es utilizado para renombrar objetos.
+
+
