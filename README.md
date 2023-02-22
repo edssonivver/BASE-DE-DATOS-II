@@ -20,14 +20,14 @@
 
 
 **<A href="https://github.com/edssonivver/BASE-DE-DATOS-II/blob/main/HITO-1/DIAGNOSTICO.txt"> Diagnostico 1 ☞ Definicion de Conceptos </A>**
-<p> **<A href="https://github.com/edssonivver/BASE-DE-DATOS-II/blob/main/HITO-1/DIAGNOSTICO_WORD.docx"> Diagnostico 2 ☞ Definicion de Conceptos   (Archivo Doc) 📄​</A>**
+<p>**<A href="https://github.com/edssonivver/BASE-DE-DATOS-II/blob/main/HITO-1/DIAGNOSTICO_WORD.docx"> Diagnostico 2 ☞ Definicion de Conceptos   (Archivo Doc) 📄​</A>**
 </p>
 
 
 ## (っ•́｡•́)っ📚  HITO 2 📚
 
-** Repositorio Completo del Hito 2 **
-<P>**<A href="https://github.com/edssonivver/BASE-DE-DATOS-II/tree/main/HITO-2"> (☞ﾟヮﾟ)☞ REPOSITORIO COMPLETO DEL HITO 2  </A>**</P>
+**Repositorio Completo del Hito 2**
+<P>**<A href="https://github.com/edssonivver/BASE-DE-DATOS-II/tree/main/HITO-2"> (☞ﾟヮﾟ)☞ REPOSITORIO COMPLETO DEL HITO 2 </A>**</P>
 
 ## ​🖥️​ APARTADOS DEL REPOSITORIO DEL HITO 2
 
