@@ -1,3 +1,8 @@
+<p align="center">
+    <img img src="https://raw.githubusercontent.com/avinash-218/avinash-218/output/github-contribution-grid-snake.svg" width="980">
+	
+</p>
+
 <h1 align="center"> 🤖 👨🏽‍💻​ BASE DE DATOS II 👨🏽‍💻​ 🤖​</h1>
 <h3 align="center">Foros || Trabajos || Proyectos || Laboratorios </h3>
 
@@ -22,7 +27,15 @@
 ## (っ•́｡•́)っ📚  HITO 2 📚
 
 **Repositorio Completo del Hito 2**
-<P>**<A href="  "> PROXIMAMENTE  </A>**</P>
+<P>**<A href="https://github.com/edssonivver/BASE-DE-DATOS-II/tree/main/HITO-2"> (☞ﾟヮﾟ)☞ REPOSITORIO COMPLETO DEL HITO 2  </A>**</P>
+
+## ​🖥️​ APARTADOS DEL REPOSITORIO DEL HITO 2
+
+***En este apartado se encuentran los Foros || Proyectos || Laboratorios del Hito 2 por separado.***
+
+
+ **<A href="https://github.com/edssonivver/BASE-DE-DATOS-II/blob/main/HITO-2/LABORATORIOS/LAB1-BDA2.sql"> Laboratorio 1 ☞ Laboratorio de clase 1 [SQL] 💻</A>**
+
 
 ## (っ▀¯▀)つ 🗂️​ HITO 3 🗂️​
 
