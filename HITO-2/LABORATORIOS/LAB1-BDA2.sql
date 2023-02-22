@@ -1,28 +1,40 @@
-SHOW DATABASES;
+/*===================================================================*/
+/*============== BASE DE DATOS II - Ing. William Barra ==============*/
+/*================= Est. Edson Iver Condori Condori =================*/
+/*===================================================================*/
 
-CREATE DATABASE Hito_II;
 
-USE Hito_II;
+SHOW DATABASES;  -- VISUALIZANDO LAS BASES DE DATOS EXISTENTES
 
-CREATE TABLE Estudiante (
-    Ci VARCHAR (50) PRIMARY KEY,
-    NOMBRE VARCHAR (20),
-    APELLIDO VARCHAR (20)
+CREATE DATABASE Hito_II; -- CREANDO LA BASE DE DATOS
+
+USE  Hito_II; -- POSICIONADO EN LA BASE DE DATOS HITO-II
+
+-- CREANDO LA TABLA
+CREATE TABLE Estudiante
+(
+  ci VARCHAR (50) PRIMARY KEY  NOT NULL ,
+  Nombre VARCHAR (50) NOT NULL ,
+  Apellido VARCHAR (50) NOT NULL
 );
 
-INSERT INTO Estudiante (ci, nombre, apellido) values ('156516 LP', 'JUAN' , 'MENDOZA' );
-INSERT INTO Estudiante (ci, nombre, apellido) values ('654654 SC','PEDRO', 'LOPEZ');
+-- INGRESANDO REGISTROS A LA TABLA
+INSERT INTO estudiante (ci, Nombre, Apellido)
+values ('464645 LP','JUAN','LOPEZ'),
+       ('654654 LP','PEDRO','GUTIERREZ');
 
-SELECT * FROM Estudiante
-WHERE APELLIDO = 'MENDOZA';
+-- REALIZANDO UNA CONSULTA
+SELECT * FROM estudiante
+WHERE Apellido = 'LOPEZ';
 
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
-CREATE DATABASE Universidad;
+CREATE DATABASE Universidad; -- CREANDO LA BASE DE DATOS
 
-USE Universidad;
+USE Universidad;  -- POSICIONANDO EN LA BASE DE DATOS UNIVERSIDAD
 
+-- CREANDO LA TABLA ESTUDIANTE
 CREATE TABLE Estudiante
 (
     Id_Estudiante INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -33,20 +45,23 @@ CREATE TABLE Estudiante
     Email VARCHAR (50) NOT NULL
 );
 
-DESCRIBE Estudiante;
+-- VISUALIZANDO LOS ATRIBUTOS DE NUESTA TABLA
+DESCRIBE Estudiante; -- DESCRIBE NOS SIRVE PARA PODER VER TODOS LOS ATRIBUTOS QUE ESTAN EL LA TABLA
 
+-- INSERTANDO DATOS/REGISTROS A LA TABLA ESTUDIANTE
 INSERT INTO Estudiante (Nombres,Apellidos,Edad,Fono,Email)
 VALUES ('Nombre 1','Apellido 1',10,11111,'user1@gmail.com'),
        ('Nombre2','Apellido2',20,11111,'user2@gmail.com'),
        ('Nombre3','Apellido3',10,11111,'user3@gmail.com');
 
+-- VISUALIZANDO EL ULTIMO REGISTRO
+Select last_insert_id();
+-- Select last_insert_id()  NOS SIRVE PARA PODER VER EL ULTIMO REGISTRO
 
--- Select last_insert_id()
-
+-- CONSULTANDO A LA TABLA ESTUDIANTE
 SELECT * FROM Estudiante;
 
 -- ALTERACION DE TABLAS
-
-ALTER TABLE estudiante
+ALTER TABLE estudiante  -- COMANDO ALTER NOS PERMITE ALTERAR LA TABLA
 ADD COLUMN Direccion varchar(30)  /* ADD COLUM PERMITE AÑADIR UNA NUEVA COLUMNA */
 default 'EL ALTO';    /* default permite añadir un capor por defecto */
