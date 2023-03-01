@@ -165,4 +165,3 @@ CREATE TABLE books(
     FOREIGN KEY (category_id) REFERENCES Categories(category_id),
     FOREIGN KEY (publisherd_id) REFERENCES Publishers(publisherd_id)
 );
-
