@@ -232,9 +232,11 @@ BEGIN
     RETURN RESP;
 end;
 SELECT LAB1(50000);
+
 #FUNCIONES DE LA BASE DE DATOS
 #1) CHAR_LENGTH= NOS PERMITE DETERMINAR CUANTOS CARACTERES TIENE UAN PALABRA
 #EJEMPLO
+
 SELECT CHAR_LENGTH(' bdaii ') ;# se cuenta al espacio dentro de las comillas como un caracter
 #ejemplo en ejercicio
 CREATE OR REPLACE FUNCTION valido_length_7(password TEXT)
@@ -249,6 +251,7 @@ begin
     RETURN resp;
 end;
 SELECT valido_length_7('BDAIIAVG');
+
 #COMPARACION DE CADENAS
 #STRCMP
 #EL OBJETIVO ES SABER SI DOS CADENAS SON IGUALES
@@ -257,6 +260,7 @@ SELECT valido_length_7('BDAIIAVG');
 #EN MySQL O MARIADB
 #SI SON IGUALES LA FUNCION ME RETOMA 0
 #SI SON DISTINTOS LA FUNCION ME RETORNA -1
+
 #EJEMPLO
 SELECT STRCMP('bdaii','BDAII');
 SELECT STRCMP('bdaii','BDAII2023');
@@ -274,15 +278,10 @@ begin
 end;
 SELECT COMPARARCADENAS('bdaii','BDAII');
 
-
-
-
 #EN BASE A LAS 2 FUNCIONES ANTERIORES DETERMINAR LO SIGUIENTE
 #RECIDIR 2 CADENAS, SI LAS 2 SON IGUALES Y ADEMAS EL LENGTH ES
 #MAYOR A 15 RETORNAR EL MENSAJE "VALIDO"
 #CASO CONTRARIO RETORNA "NO VALIDO"
-
-
 
 CREATE OR REPLACE FUNCTION CADLAB1(CAD1 TEXT,CAD2 TEXT)
 returns text
@@ -411,5 +410,134 @@ BEGIN
 end;
 
 select REPETIR_N_VECES_CADENA ('bdaii',5);
+
+# ===========================================================================
+# ===========================================================================
+
+                    # LAB 4 - CLASE 03/05/2023
+
+# ===========================================================================
+# ===========================================================================
+
+# CCASO DE USO : SI9 LA DADENA DUESE "HOLA MUNDO"
+# Y LA CADENA A BUSCAR FUESE "O" la funcion debe retornar
+# la letra O y la cantidad que se repiten
+
+CREATE OR REPLACE FUNCTION cuenta_caracter(cadena VARCHAR(50),letra CHAR)
+RETURNS TEXT
+BEGIN
+
+    DECLARE response TEXT DEFAULT 'La letra no se encuentra en la cadena';
+    DECLARE contador INT DEFAULT 1;
+    DECLARE nVeces INT DEFAULT 0;
+    DECLARE puntero CHAR;
+
+    IF LOCATE(letra,cadena) > 0 THEN
+
+            WHILE contador <= char_length(cadena) DO
+            SET puntero = substr(cadena,contador,1);
+
+                IF puntero = letra THEN
+                     SET nVeces = nVeces + 1;
+                END IF;
+
+            SET contador = contador +1;
+            END WHILE;
+
+    SET response = CONCAT('la letra " ', letra , ' " se repite ', nVeces, ' veces');
+    END IF;
+
+    RETURN response;
+END;
+
+SELECT cuenta_caracter('HOLA MUNDO', 'A');
+
+# 2. DETERMINAR CUANTAS VOCALES TIENE UNA CADENA
+    # a. CREAR UNA FUNCION QUE RETORNE TEXT
+    # b. LA FUNCION DEBE RECIBIR UNA CADENA CUALQUIERA
+    # c. caso: Si la cadena fuese BDA II, la funcion debe retornar
+    # "Cantidad de vocales: 3"
+
+
+CREATE FUNCTION cuneta_vocales_cad(Cadena TEXT)
+    RETURNS TEXT
+BEGIN
+
+    DECLARE puntero CHAR;
+    DECLARE x Int DEFAULT 1;
+    DECLARE cont Int DEFAULT 0;
+
+    WHILE x <= CHAR_LENGTH(Cadena)
+        DO
+            SET puntero = SUBSTR(Cadena, x, 1);
+            IF puntero = 'a' OR puntero = 'e' OR puntero = 'i' OR puntero = 'o' OR puntero = 'u' THEN
+                SET cont = cont + 1;
+            end if;
+            SET X = X + 1;
+        end while;
+    RETURN CONCAT('Cantidad de cocales: ', cont);
+end;
+
+
+select cuneta_vocales_cad('hola mundo');
+
+
+/*
+CREATE FUNCTION cuneta_vocales_cad_v2(Cadena TEXT)
+    RETURNS TEXT
+BEGIN
+
+    DECLARE x Int DEFAULT 1;
+    DECLARE cont Int DEFAULT 0;
+
+    WHILE x <= CHAR_LENGTH(Cadena) DO
+            IF SUBSTR(cadena,x,1) LIKE '%aeiou%' THEN
+                SET cont = cont + 1;
+            end if;
+            SET X = X + 1;
+        end while;
+    RETURN CONCAT('Cantidad de cocales: ', cont);
+end;
+*/
+
+CREATE OR REPLACE FUNCTION cuneta_palabras(Cadena TEXT)
+    RETURNS TEXT
+BEGIN
+
+    DECLARE puntero CHAR;
+    DECLARE x Int DEFAULT 0;
+    DECLARE cont Int DEFAULT 0;
+
+    WHILE x <= CHAR_LENGTH(Cadena)
+        DO
+            SET puntero = SUBSTR(Cadena, x, 1);
+            IF puntero = ' ' THEN
+                SET cont = cont +1;
+            end if;
+            SET X = X + 1;
+        end while;
+    RETURN CONCAT('Cantidad de Palabras: ', cont);
+end;
+
+Select cuneta_palabras('HOLA MUNDO QUE');
+
+
+
+CREATE OR REPLACE FUNCTION retorna_Apellido(Cadena TEXT)
+    RETURNS TEXT
+BEGIN
+
+    DECLARE A_PARTIR_DE int DEFAULT  LOCATE(' ',Cadena);
+    DECLARE RESPUESTA text DEFAULT substr(Cadena,A_PARTIR_DE);
+    RETURN RESPUESTA;
+
+END;
+
+
+Select retorna_Apellido('EDSON CONDORI CONDORI');
+
+
+
+
 
 
