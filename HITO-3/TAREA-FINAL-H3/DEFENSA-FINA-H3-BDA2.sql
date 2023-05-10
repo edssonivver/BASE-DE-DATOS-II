@@ -89,7 +89,7 @@ BEGIN
       #verifica si se seguira cumpliendo la secuencia
      IF cont > NumerLimit THEN
           LEAVE SerieFigonaci;  #LEAVE SALE DEL BUCLE
-        END IF;
+    END IF;
 
     SET result = CONCAT(result, num2, ',');
     SET num2 = num1 + num2;
@@ -102,7 +102,7 @@ BEGIN
     RETURN result;
 end;
 
-SELECT fibonacci(6);
+SELECT fibonacci(7);
 
 # ===================================
 #            EJERCICIO 3
@@ -122,6 +122,7 @@ BEGIN
 END;
 
 SELECT retorna_el_nombre();
+
 
 # ● Crear una variable global de nombre LIMIT.
 # ● Este valor debe almacenar un valor entero.
@@ -192,7 +193,7 @@ BEGIN
 
     DECLARE response TEXT DEFAULT '';
     DECLARE limite INTEGER;
-    # DECLARE limite INTEGER DEFAULT 19; #SI LA EDAD MIN FUERA IMPAR
+    #DECLARE limite INTEGER DEFAULT 19; #SI LA EDAD MIN FUERA IMPAR
     DECLARE num INTEGER;
 
     #Llamando a la funcion anterior y alamacenando en una variable
@@ -206,7 +207,7 @@ BEGIN
                 SET response =  CONCAT(response,num,',');
                 SET num = num +2;
             end while;
-    ELSE
+    ELSE # para los impares
         SET num = 1;
              WHILE num <= limite DO
                 SET response =  CONCAT(num,',',response);
@@ -233,11 +234,11 @@ BEGIN
 
     DECLARE puntero CHAR;
     DECLARE x Int DEFAULT 1; #nos permitira avanzar a la sig letra de la cadena
-    DECLARE cont Int DEFAULT 0;
-    DECLARE cont2 Int DEFAULT 0;
-    DECLARE cont3 Int DEFAULT 0;
-    DECLARE cont4 Int DEFAULT 0;
-    DECLARE cont5 Int DEFAULT 0;
+    DECLARE cont Int DEFAULT 0; #a
+    DECLARE cont2 Int DEFAULT 0; #e
+    DECLARE cont3 Int DEFAULT 0; #i
+    DECLARE cont4 Int DEFAULT 0;# o
+    DECLARE cont5 Int DEFAULT 0;# u
 
 
     WHILE x <= CHAR_LENGTH(Cadena) DO
@@ -270,6 +271,7 @@ BEGIN
 end;
 
 select cuenta_vocales_cad('TALLER DE BASE DE DATOS');
+SELECT cuenta_vocales_cad('EDSON IVER CONDORI CONDORI');
 
 # ===================================
 #            EJERCICIO 6
@@ -289,7 +291,6 @@ select cuenta_vocales_cad('TALLER DE BASE DE DATOS');
 CREATE OR REPLACE FUNCTION Categoria_cliente(credit_number INT)
 RETURNS TEXT
 BEGIN
-
     declare response text default '';
         CASE
         WHEN credit_number > 50000
@@ -302,7 +303,7 @@ BEGIN
     RETURN response;
 END;
 
-SELECT Categoria_cliente(50001);
+SELECT Categoria_cliente(50225);
 
 # ===================================
 #            EJERCICIO 7
@@ -334,7 +335,7 @@ BEGIN
             # entonces si la posicion es mayor a 0 entonces existe una vocal
                 IF FIND_IN_SET(puntero, 'a,e,i,o,u') > 0  THEN
                     SET contador = contador + 1;
-                ELSE # si no encuentra vocal sigue avanzando per o verifica si existe espacios
+                ELSE # osi no encuentra vocal sigue avanzando per  verifica si existe espacios
                     IF puntero = ' ' THEN
                         SET contador = contador +1;
                         SET response = CONCAT(response,puntero,' ');
