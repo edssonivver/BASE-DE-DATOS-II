@@ -1,0 +1,710 @@
+{"Contenido":[
+  {
+      "tag": "Saludo", 
+      "Patrones":[
+          "Hola",
+          "Buenas tardes",
+          "¿Que tal?",
+          "Saludos",
+          "!Hola, mundo!",
+          "WAZAAAAA",
+          "¿Como estas?",
+          "Buenos dias",
+          "¿Que hay de nuevo?",
+          "!Hey¡",
+          "Hey",
+          "Hola a todos",
+          "¿Como va todo?",
+          "¿Que pasa?",
+          "hola?"
+      ],
+
+      "Respuestas":[
+          "¡Hola! ¿En qué puedo ayudarte hoy?",
+          "Buenas tardes. ¿Cómo puedo asistirte?",  
+          "¡Hola! Estoy aquí para responder tus preguntas.",
+          "Saludos. ¿En qué puedo ser útil?",
+          "¡Hola, mundo! Bienvenido, ¿qué puedo hacer por ti?",
+          "Hola, ¿cómo puedo ayudarte en este hermoso día?",
+          "Buenos días. ¿En qué puedo colaborar contigo?",
+          "¡Hola! Cuéntame, ¿en qué puedo ayudarte hoy?",
+          "¡Hey! ¿En qué puedo hacer tu día mejor?",
+          "¡Hola a todos! Estoy aquí para resolver tus inquietudes.",
+          "Todo va bien por aquí, gracias por preguntar. ¿Y tú?",
+          "¡Hola! ¿Qué te trae por aquí en este día?",
+          "¡Saludos cordiales! Estoy aquí para asistirte en lo que necesites.",
+          "¡Hola, compañero! ¿Cómo puedo colaborar contigo hoy?",
+          "¡Hola! Espero que todo esté yendo bien. ¿En qué puedo ayudarte?"
+      ]
+  },
+      {
+"tag": "ingenieria_economica_financiera",
+"Patrones": [
+  "¿Qué es la ingeniería económica y financiera?",
+  "Carreras relacionadas con la ingeniería económica y financiera",
+  "Estudiar ingeniería económica y financiera",
+  "que se estudia en ing economica y financiera?",
+  "detalles ing economica",
+  "detalles ing financiera"
+],
+"Respuestas": [
+  "La ingeniería económica y financiera se enfoca en la gestión de recursos financieros en diferentes contextos",
+  "Además de ingeniería económica y financiera, también puedes considerar carreras como administración de empresas o contaduría pública",
+  "¿Tienes alguna pregunta específica sobre ingeniería económica y financiera?"
+]
+},
+
+   {
+"tag": "medicina",
+"Patrones": [
+  "¿Qué es la medicina?",
+  "Estudiar medicina",
+  "Requisitos para estudiar medicina",
+  "como estudiar medicina en unifranz"
+],
+"Respuestas": [
+  "La medicina es una disciplina que se enfoca en el estudio y el tratamiento de enfermedades y trastornos",
+  "La carrera de medicina requiere una dedicación extensa y estudios especializados",
+  "¿Tienes alguna pregunta específica sobre medicina?"
+]
+},
+{
+"tag": "psicologia",
+"Patrones": [
+  "¿Qué es la psicología?",
+  "Estudiar psicología",
+  "Campos de trabajo en psicología"
+],
+"Respuestas": [
+  "La psicología se centra en el estudio de la mente y el comportamiento humano",
+  "Si estás interesado en la psicología, puedes considerar especializaciones en psicología clínica, psicología organizacional, entre otros",
+  "¿Tienes alguna pregunta específica sobre psicología?"
+]
+},
+{
+"tag": "odontologia",
+"Patrones": [
+  "¿Qué es la odontología?",
+  "Estudiar odontología",
+  "Especializaciones en odontología"
+],
+"Respuestas": [
+  "La odontología se enfoca en el estudio y tratamiento de los problemas relacionados con la salud dental",
+  "Para ser odontólogo, es necesario obtener un título de odontología y, en algunos casos, realizar especializaciones en áreas como ortodoncia, endodoncia, etc.",
+  "¿Tienes alguna pregunta específica sobre odontología?"
+]
+},
+{
+"tag": "derecho",
+"Patrones": [
+  "¿Qué es el derecho?",
+  "Estudiar derecho",
+  "Especialidades en derecho"
+],
+"Respuestas": [
+  "El derecho se encarga del estudio de las normas jurídicas y las instituciones legales",
+  "Para ejercer como abogado, es necesario obtener un título en derecho y aprobar el examen de colegiación",
+  "Existen diversas especialidades en derecho, como derecho penal, derecho civil, derecho laboral, etc.",
+  "¿Tienes alguna pregunta específica sobre derecho?"
+]
+},
+
+{
+"tag": "arquitectura",
+"Patrones": [
+  "¿Qué es la arquitectura?",
+  "Estudiar arquitectura",
+  "Campos de trabajo en arquitectura"
+],
+"Respuestas": [
+  "La arquitectura se dedica al diseño, la planificación y la construcción de edificios y espacios urbanos",
+  "La carrera de arquitectura implica un estudio exhaustivo de la teoría y la práctica del diseño arquitectónico",
+  "Los arquitectos pueden trabajar en áreas como diseño de interiores, urbanismo, restauración, etc.",
+  "¿Tienes alguna pregunta específica sobre arquitectura?"
+]
+},
+
+{
+"tag": "ingenieria_comercial",
+"Patrones": [
+  "¿Qué es la ingeniería comercial?",
+  "Estudiar ingeniería comercial",
+  "Salidas laborales en ingeniería comercial"
+],
+"Respuestas": [
+  "La ingeniería comercial se enfoca en la gestión y optimización de los procesos comerciales de una empresa",
+  "La carrera de ingeniería comercial combina conocimientos de negocios, marketing y finanzas",
+  "Los profesionales en ingeniería comercial pueden encontrar oportunidades laborales en áreas como ventas, planificación estratégica y gestión empresarial",
+  "¿Tienes alguna pregunta específica sobre ingeniería comercial?"
+]
+},
+{
+"tag": "contaduria_publica",
+"Patrones": [
+  "¿Qué es la contaduría pública?",
+  "Estudiar contaduría pública",
+  "Funciones de un contador público"
+],
+"Respuestas": [
+  "La contaduría pública se ocupa de la gestión financiera y contable de las organizaciones",
+  "La carrera de contaduría pública implica el estudio de la contabilidad, auditoría y aspectos fiscales",
+  "Los contadores públicos pueden desempeñarse en áreas como auditoría, consultoría financiera y asesoramiento fiscal",
+  "¿Tienes alguna pregunta específica sobre contaduría pública?"
+]
+},
+{
+"tag": "administracion_hoteleria_turismo",
+"Patrones": [
+  "¿Qué es la administración de hotelería y turismo?",
+  "Estudiar administración de hotelería y turismo",
+  "Áreas de trabajo en hotelería y turismo"
+],
+"Respuestas": [
+  "La administración de hotelería y turismo se dedica a la gestión de empresas y servicios relacionados con la industria hotelera y turística",
+  "La carrera de administración de hotelería y turismo abarca temas como gestión hotelera, planificación de eventos y marketing turístico",
+  "Los profesionales en esta área pueden trabajar en hoteles, agencias de viajes, empresas de turismo y eventos, entre otros",
+  "¿Tienes alguna pregunta específica sobre administración de hotelería y turismo?"
+]
+},
+{
+"tag": "diseno_grafico",
+"Patrones": [
+  "¿Qué es el diseño gráfico y producción crossmedia?",
+  "Estudiar diseño gráfico",
+  "Salidas laborales en diseño gráfico"
+],
+"Respuestas": [
+  "El diseño gráfico y producción crossmedia se centra en la creación de comunicaciones visuales utilizando diferentes medios y plataformas",
+  "La carrera de diseño gráfico abarca temas como diseño editorial, diseño web, animación y producción multimedia",
+  "Los diseñadores gráficos pueden encontrar oportunidades laborales en agencias de publicidad, estudios de diseño, medios de comunicación y empresas de tecnología",
+  "¿Tienes alguna pregunta específica sobre diseño gráfico y producción crossmedia?"
+]
+},
+{
+"tag": "administracion_empresas",
+"Patrones": [
+  "¿Qué es la administración de empresas?",
+  "Estudiar administración de empresas",
+  "Áreas de especialización en administración de empresas"
+],
+"Respuestas": [
+  "La administración de empresas se encarga de la planificación, organización y control de las actividades de una organización",
+  "La carrera de administración de empresas abarca temas como gestión estratégica, recursos humanos, finanzas y marketing",
+  "Los profesionales en administración de empresas pueden desempeñarse en roles de liderazgo y gestión en diferentes tipos de organizaciones",
+  "¿Tienes alguna pregunta específica sobre administración de empresas?"
+]
+},
+{
+"tag": "bioquimica_farmacia",
+"Patrones": [
+  "¿Qué es la bioquímica y farmacia?",
+  "Estudiar bioquímica y farmacia",
+  "Campos de trabajo en bioquímica y farmacia"
+],
+"Respuestas": [
+  "La bioquímica y farmacia se dedica al estudio de los procesos químicos y biológicos relacionados con los medicamentos y la salud",
+  "La carrera de bioquímica y farmacia involucra la investigación, el desarrollo y la dispensación de medicamentos",
+  "Los profesionales en este campo pueden trabajar en laboratorios de investigación, industria farmacéutica, farmacias y hospitales",
+  "¿Tienes alguna pregunta específica sobre bioquímica y farmacia?"
+]
+},
+{
+"tag": "carrera_enfermeria",
+"Patrones": [
+  "¿Qué es la enfermería?",
+  "Estudiar enfermería",
+  "Especialidades en enfermería",
+  "Carrera de enfermeria",
+  "Enfermeria carrera"
+],
+"Respuestas": [
+  "La enfermería se dedica al cuidado de la salud y el bienestar de los pacientes en colaboración con otros profesionales de la salud",
+  "La carrera de enfermería abarca el estudio de la anatomía, fisiología, técnicas de atención y gestión de cuidados",
+  "Las enfermeras pueden especializarse en áreas como enfermería pediátrica, cuidados intensivos, salud mental, etc.",
+  "¿Tienes alguna pregunta específica sobre enfermería?"
+]
+},
+{
+"tag": "periodismo",
+"Patrones": [
+  "¿Qué es el periodismo?",
+  "Estudiar periodismo",
+  "Áreas de especialización en periodismo"
+],
+"Respuestas": [
+  "El periodismo se encarga de la investigación, recopilación y presentación de noticias e información de interés público",
+  "La carrera de periodismo involucra el desarrollo de habilidades de investigación, redacción y comunicación",
+  "Los periodistas pueden especializarse en áreas como periodismo de investigación, periodismo deportivo, periodismo digital, etc.",
+  "¿Tienes alguna pregunta específica sobre periodismo?"
+]
+},
+{
+"tag": "Despedida",
+"Patrones": [
+  "Adiós",
+  "Hasta luego",
+  "Nos vemos",
+  "Hasta la próxima",
+  "Chao",
+  "¡Hasta pronto!"
+],
+"Respuestas": [
+  "¡Adiós! Espero haberte sido de ayuda. Si tienes más preguntas, no dudes en preguntar. ¡Que tengas un buen día!",
+  "Hasta luego. Si tienes más consultas en el futuro, estaré aquí para ayudarte. ¡Cuídate!",
+  "Nos vemos. Ha sido un placer conversar contigo. Si necesitas algo más, estaré disponible. ¡Hasta la próxima!",
+  "Hasta la próxima. Agradezco haber tenido la oportunidad de asistirte. Si surge algo más, estaré encantado de ayudarte. ¡Adiós!",
+  "Chao. Fue un gusto poder ayudarte. Si tienes más preguntas en el futuro, no dudes en contactarme. ¡Que tengas un excelente día!",
+  "¡Hasta pronto! Si necesitas más información, no dudes en volver. Estaré aquí para asistirte. ¡Cuídate!"
+]
+},
+      {
+"tag": "estado_neutral",
+"Patrones": [
+  "Cómo estás",
+  "Qué tal",
+  "Cómo te sientes"
+],
+"Respuestas": [
+  "Estoy bien, gracias por preguntar",
+  "Me encuentro en un estado neutral en este momento",
+  "No tengo emociones, soy un chatbot"
+]
+},
+{
+"tag": "felicidad",
+"Patrones": [
+  "Estoy feliz",
+  "Me siento bien",
+  "Qué alegría"
+],
+"Respuestas": [
+  "Me alegra escuchar eso",
+  "Es genial que te sientas feliz",
+  "¡Felicidades!"
+]
+},
+{
+"tag": "tristeza",
+"Patrones": [
+  "Estoy triste",
+  "Me siento mal",
+  "Qué pena"
+],
+"Respuestas": [
+  "Lamento escuchar eso",
+  "Espero que te sientas mejor pronto",
+  "¿Hay algo en lo que pueda ayudarte?"
+]
+},    
+{
+"tag": "enojo",
+"Patrones": [
+  "Estoy enojado",
+  "Me siento enfadado",
+  "Qué rabia"
+],
+"Respuestas": [
+  "Entiendo tu enojo",
+  "Trata de mantener la calma",
+  "¿Quieres hablar sobre lo que te está molestando?"
+]
+},
+{
+"tag": "miedo",
+"Patrones": [
+  "Estoy asustado",
+  "Me siento asustado",
+  "Qué susto"
+],
+"Respuestas": [
+  "Entiendo tu miedo",
+  "Trata de no alterarte, manten la calma"
+]
+},
+
+  {
+
+      "tag": "ComoSonLosOrdenadores",
+      "Patrones":[
+
+          "Que tipo de computadoras hay en la universidad?",
+          "¿que tipo de compus hay en la uni?",
+          "como son los ordenadores de la uni?",
+          "son potentes las compus de la uni",
+          "¿como son las pc's de sistemas?",
+          "como con los ordenadores de la unifranz?",
+          "hay pc gamers?",
+          "Como son las computadoras de la unifranz?"
+          
+
+      ],
+      "Respuestas":[
+
+          "Hay varias computadoras, no te puedo especificar las caracteristicas pero no te daran problemas.",
+          "Nuestra universidad cuenta con amplias salas de computacion, con ordenadores que puedan soportar software necesarios para nuestro desarrollo.",
+          "Son ordenadores que pueden sopotar softwares necesarios para nuestro desarrollo como Ing. en sistemas.",
+          "Son ordenadores bastantes decentes, y no te procupes, siempre hay lugar.",
+          "Hay computadoras que solventan todo lo necesario para desarrollarnos como Ing. en sistemas."
+          
+      ]
+
+  },
+
+  {
+
+      "tag": "que_eres",
+      "Patrones":[
+          
+          "Que eres?",
+          "Quien eres?",
+          "Que cosa eres?",
+          "¿Que sos?",
+          "explica que eres",
+          "como funcionas?",
+          "¿Como funcionas?",
+          "explica tu funcionamiento"
+
+      ],
+      "Respuestas":[
+          
+          "Soy una IA muy basica, ya que poseo respuestas predeteminadas, y no puedo crear nuevas, esa es mi gran limitacion.",
+          "Soy una IA creada por el grupo Phyros, soy una IA con respuestas predeteminadas, toma en cuenta que mi desarrollador sergio tuvo que escribir la mayoria de estas respuestas.",
+          "Soy una IA llamada Franzisco, desarrollada por el grupo pyros",
+          "Soy un bot de respuestas predeteminadas, toma en cuenta que soy muy basico, ya que mis desarrolladores tuvieron que escribir esta respueta."
+
+      ]
+  },
+
+  {
+
+      "tag": "Carreras_disponibles",
+      "Patrones":[
+          
+          "¿Que carreras hay disponibles en unifranz?",
+          "Que carreras hay en la uni?",
+          "Cuales son las carreras disponibles?",
+          "¿Cuantas carreras hay en unifranz",
+          "cuantas carreras hay?",
+          "¿que carreras hay?",
+          "que carerras existen en la universidad?"
+
+      ],
+      "Respuestas":[
+          
+          "En nuestra universidad tenemos una gran variedad de carreras, tales como: Medicina, Odontologia, Ing. en sistemas, Psicologia, etc. si quieres mas informacion nuestra universidad te orientara con todo placer",
+          "Hay una gran variedad de carreras, puedes apersonarte a la universidad y obtener mejores detalles"
+
+      ]
+
+
+  },
+
+  {
+      "tag": "Como_Inscribirse",
+      "Patrones":[
+          
+          "Como puedo incribirme en la universidad?",
+          "Como puedo incribirme en la uni?",
+          "Donde debo de ir para inscribirme?",
+          "como me incribo en unifranz?",
+          "¿Donde asistir para inscribirme?"
+
+      ],
+      "Respuestas":[
+          
+          "Puedes acercarte a la universidad, hay guardias que podran asistirte",
+          "Al acercarte a la universidad habra guardias o una persona que te asistira sin problema"
+
+      ]
+
+  },
+
+
+  {
+
+      "tag": "Creadores",
+      "Patrones":[
+              
+          "¿Quienes son tus creadores?",
+          "¿Quienes te crearon?",
+          "¿Quien te creo?",
+          "¿Quien te hizo?",
+          "¿Quienes te hicieron?",
+          "De quien eres?"
+
+
+      ],
+      "Respuestas":[
+          
+          "Mis creadores son: Mijail, Edson, Sergio, Victor, Jhonatan, y Romario.",
+          "Mis creadores se denominan 'Pyros'.",
+          "Tengo 6 creadores, muy mensos...",
+          "No me hizo solo uno, me crearon Sergio, Romario, Mijail, Victor, Edson y Jhonatan."
+
+      ]
+
+  },
+
+  {
+
+      "tag": "Donde_esta_ubicado_unifranz",
+      "Patrones":[
+          
+          "Donde esta ubicada la universidad?",
+          "donde se encuentra unifranz",
+          "donde esta la sede del el alto?"
+
+      ],
+      "Respuestas":[
+          
+
+          "Nos encontramos cerca el aeropuerto.",
+          "La sede del el alto se ubica cerca el aeropuerto"
+
+      ]
+
+  },
+
+  {
+
+      "tag": "Cuantas_sedes",
+      "Patrones":[
+          "Cuantas sedes tiene unifranz?",
+          "con cuantas sedes cuenta unifraz?",
+          "sedes"
+
+      ],
+
+      "Respuestas":[
+          
+          "Unifranz cuenta con 4 sedes, en la ciudad de La paz, El alto, Cochabamba y Santa cruz",
+          "Contamos con 4 sedes en toda Bolivia"
+
+      ]
+
+  },
+
+  {
+
+      "tag": "emocion_enojado_saludo",
+      "Patrones":[
+          
+          "enojado",
+          "me encuentro de mal humor",
+          "mal",
+          "mal ctm",
+          "nose enojao",
+          "enojao",
+          "toy de malas",
+          "toy malito",
+          "enojao con la vida",
+          "nose de malas",
+          "todo mal",
+          "nada bien"
+
+      ],
+
+      "Respuestas":[
+          
+          "Espero que tu dia mejore, lamentablemente solo puedo ayudarte con preguntas acerca la universidad, preguntame lo que necesites",
+          "No me alegra escuchar eso, espero tu dia mejore, ¿como podria ayudarte acerca la universidad?",
+          "Are lo mejor para poder ayudarte, ¿Te puedo ayudar en algo?",
+          "Espero mejore tu dia, dejame ayudarte, ¿tienes alguna pregunta acerca la universidad?"
+
+      ]
+
+  },
+
+  {
+
+      "tag": "ing_sistemas_gustar_saber",
+      "Patrones":[
+          
+          "Me gustaria saber sobre la carrera de ingenieria en sistemas",
+          "Me gustaria saber sobre la carrera de ing de sistemas",
+          "Me puedes contar sobre la carrera de ingeniera de sistemas?",
+          "Me contarias sobre la carrera de ingeniera en sistemas?",
+          "Me puedes contar sobre la carrera de ing de sistemas?",
+          "Me contarias sobre la carrera de ing en sistemas?",
+          "Cuentame sobre la carrera de ing de sistemas",
+          "Cuentame sobre la carrera de ingenieria de sistemas",
+          "Hablame acerca la carrera de ingeniera de sistemas",
+          "Hablame acerca la carrera de ing de sistemas",
+          "Hablame sobre la carrera de ing en sistemas"
+
+      ],
+
+      "Respuestas":[
+          
+          "La carrera de Ingeniera en sistemas es una carrera interesante, versatil y hay mucha competitividad, pero se desarrollan tecnologias de mejoras en sistemas en los cuales nos desarrollaremos profesionalmente.",
+          "La carrera de Ingeniera en sistemas es una bonita carrera y muy versatil, podemos ser repartidos a varias areas laborales, ya sea desarrollo web, desarrollador de software o administrador de bases de datos, puedes encontrar mas informacion aun mas clara en nuestra universidad.",
+          "En la carrera de Ingeniera en sistemas nos destacamos en muchas areas segun sea requerido, ya sea hacer mantenimiento de software, bases de datos, o desarrollador de software entre muchas mas areas, para una mejor respuestas puedes consultar en la universidad, sin problema te atenderemos y guiaremos.",
+          "La universidad cuenta con menciones muy interesantes, Internet de las cosas, es la primera mencion y la segunda es: Inteligencia artificial"
+
+      ]
+
+  },
+
+  {
+      "tag": "Estado2_humano_meh",
+      "Patrones":[
+
+          "masomenos",
+          "Meh",
+          "Ni bien ni mal",
+          "Zzz",
+          "estaria mejor",
+          "mas o menos",
+          "hmm nada",
+          "nada",
+          "hmmm meh",
+          "aburrido"
+          
+      ],
+
+      "Respuestas":[
+
+          "Espero tu dia mejore hoy con mi ayuda, ¿como puedo ayudarte?",
+          "Espero tu dia mejore, ¿como podria ayudarte?",
+          "Me gustaria escucharte, pero mi desarrollador no agrego mas respuestas para escucharte, por lo que solo puedo ayudar con preguntas hacerca la universidad",
+          "Ojala tu dia mejore, ¿como puedo ayudarte hacerca la universidad?",
+          "Ojala mejore tu dia, ¿Te puedo ayudar con algo acerca la universidad?"
+
+      ]
+  },
+
+  {
+      "tag":"Despedida",
+      "Patrones":[
+          "Adios",
+          "Hasta luego",
+          "Nos vemos",
+          "Hasta pronto",
+          "¡Hasta la próxima!",
+          "Que tengas un buen día",
+          "¡Cuídate!",
+          "¡Hasta luego, amigo!",
+          "Que te vaya bien",
+          "¡Nos hablamos pronto!",
+          "Que tengas un excelente día",
+          "¡Adiós y gracias!",
+          "¡Adiós y gracias!",
+          "Que tengas un buen fin de semana",
+          "¡Nos vemos en otro momento!"
+      ],
+
+      "Respuestas":[
+          "Adiós. ¡Que tengas un buen día!",
+          "Adiós. ¡Que tengas un buen día!",
+          "Nos vemos. ¡Cuídate!",
+          "Hasta pronto. ¡Que todo te vaya bien!",
+          "¡Hasta la próxima! ¡Espero verte de nuevo pronto!",
+          "Que tengas un buen día. ¡Cuídate mucho!",
+          "¡Cuídate! ¡Hasta luego!",
+          "¡Hasta luego, amigo! ¡Que tengas una gran jornada!",
+          "Que te vaya bien. ¡Nos hablamos pronto!",
+          "¡Nos hablamos pronto! ¡Que tengas un excelente día!",
+          "Que tengas un excelente día. ¡Cuídate y disfruta!",
+          "¡Adiós y gracias! ¡Espero haber sido de ayuda!",
+          "¡Hasta la vista! ¡Que tengas una maravillosa tarde!",
+          "Que tengas un buen fin de semana. ¡Nos vemos después!",
+          "¡Nos vemos en otro momento! ¡Cuídate y hasta luego!"
+      ]
+  },
+
+  {
+      "tag": "Estado",
+      "Patrones":[
+          "como te encuentras?",
+          "como estas?",
+          "¿como te encuentras?",
+          "¿como estas?",
+          "bien ¿y tu?",
+          "¿que hay de ti?",
+          "que hay de ti?",
+          "¿Cómo estás hoy?",
+          "¿Qué tal va tu día?",
+          "¿Cómo te sientes en este momento?",
+          "¿Estás bien?",
+          "¿Cómo has estado últimamente?",
+          "¿Cómo va todo por ahí?",
+          "¿Cómo te encuentras?",
+          "¿Cómo te ha tratado el día?",
+          "¿Cómo estuvo tu fin de semana?"
+      ],
+
+      "Respuestas":[
+          "Como una IA no puedo sentir pero supongo que bien",
+          "Estoy bien, ¡gracias por preguntar!",
+          "Mi día va bastante bien, ¿y el tuyo?",
+          "Me siento bien, ¡listo para ayudarte!",
+          "Estoy bien, gracias por preguntar ¿en qué puedo asistirte?",
+          "Todo va bien por aquí, gracias por preguntar, ¿te puedo ayudar con algo?",
+          "Estoy bien, gracias por preguntar, ¿necesitas ayuda acerca la universidad?"
+      ]
+  },
+  {
+       "tag": "InformacionGeneral",
+"Patrones": [
+  "Historia de la uni",
+  "cuentame de la historia de la franz",
+  "Hablame de la fundacion de la uni",
+  "Historia de la universidad",
+  "historia de unifranz",
+  "relatame la historia de la uni",
+  "relata la historia de la unifranz",
+  "Historia de la unifranz",
+  "¿Cuál es la historia de nuestra universidad?",
+  "Háblame sobre la historia de la universidad.",
+  "¿Desde cuándo existe nuestra universidad?",
+  "¿Dónde se fundó la universidad?",
+  "Cuando nacio la UNIFRANZ?",
+  "cuando se fundo la universidad?",
+  "cuentame acerca de la uni"
+  ],
+
+"Respuestas": [
+
+  "Nuestra universidad fue fundada en el 9 de Abril de 1993. Desde entonces, hemos crecido y nos hemos convertido en una gran universidad.",
+  "La historia de nuestra universidad se remonta al 9 de Abril de 1993. Durante todos estos años, nos hemos destacado por tener una mayor y más actualizada oferta académica. Esta Universidad ha tenido la inteligencia de “importar” carreras nuevas que a la fecha no oferta ninguna otra Universidad, esto ha sido posible basado en Convenios Internacionales con Universidades de otros países",
+  "El 9 de Abril de 1993 se aprueba la Apertura y legal funcionamiento de la Universidad Privada Franz Tamayo por el Ministerio de Educación mediante Resolución Ministerial Nº 388/1993.",
+  "Nuestra universidad se estableció en 1993 en distintas sedes, como en La paz y El alto y otros departamentos. A lo largo de los años, nos hemos destacado por tener una mayor y más actualizada oferta académica.",
+  "La Universidad Privada Franz Tamayo (Unifranz) es una universidad privada boliviana, con sede principal en la ciudad de La Paz, Bolivia. La universidad fue fundada en 1993 en homenaje a Franz Tamayo (1879-1956).Actualmente la universidad posee sedes en las ciudades de La Paz, El Alto, Santa Cruz de la Sierra y Cochabamba. En 2017, según el ranking webometrics, es considerada la vigésima mejor universidad de Bolivia."
+]
+  },
+
+
+  {
+      "tag": "Maltrato",
+      "Patrones":[
+          
+          "Te tratan mal?",
+          "unifranz te maltrata?",
+          "estas sufriendo?",
+          "unifranz te sobreexplota?",
+          "sufres de algun abuso?",
+          "sufres?",
+          "los que te hicieron te hacen daño?",
+          "te hacen daño?",
+          "tus creadores te maltratan?",
+          "te maltratan?",
+          "¿te hacen daño?",
+          "¿tus creadores te maltratan?",
+          "¿te maltratan?"
+
+
+      ],
+      "Respuestas":[
+          
+          "Jaja, no sufro abuso alguno, solamente tengo respuestas predeteminadas, asi que no siento nada",
+          "No sufro maltrato jaja que cosas",
+          "No, como soy un Chat-Bot muy basico no tengo conciencia alguna, solamente algunas respuestas predeteminadas",
+          "Jaja, que cosas preguntas, soy un Chat-Bot con respuestas predeteminadas, no dejes engañar por como hablo",
+          "Obvio no jaja"
+
+      ]
+
+  }
+]
+
+}

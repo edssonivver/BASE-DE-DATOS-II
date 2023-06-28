@@ -1,0 +1,110 @@
+/* PARA CUSTOM AYUDA TAREAS */
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
+
+:root {
+    --acard-height: 80vh;
+    --acard-width: calc(var(--card-height) /1.5);
+}  
+
+.box-Ayuda-Tarea
+{
+    text-align: center;
+    margin: 3%;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100;
+    background: #060c21;
+    font-family: 'Poppons', sans-serif;
+    border-radius: 15%;
+}
+
+
+.box-Ayuda-Tarea
+{
+    background: #060c21;
+    width: var(--acard-width);
+    height: var(--acard-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: rgb(88 199 250 / 0%);
+    cursor: pointer;
+}
+
+.box-Ayuda-Tarea:hover 
+{
+    color: 
+    rgb(19 88 236 /100%), rgb(231 170 15 /100%) , rgb(39 208 98 / 100%),rgb(24 93 196 / 100%);
+    transition: color 1s;
+}
+
+.box-Ayuda-Tarea:hover:before, 
+.box-Ayuda-Tarea:hover:after 
+{
+    animation: none;
+    opacity: 0;
+}
+
+
+.box-Ayuda-Tarea::before 
+{
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+    var(--rotate), rgb(19, 88, 236), rgb(231, 170, 15) 43%, #27d062,#185dc4);;
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.box-Ayuda-Tarea::after 
+{
+    position: absolute;
+    content: "";
+    top: calc(var(--acard-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--acard-height) / 6));
+    background-image: linear-gradient(
+    var(--rotate), rgb(19, 88, 236), rgb(231, 170, 15) 43%, #27d062,#185dc4);
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+}  
+@keyframes spin 
+{
+    0% {
+    --rotate: 0deg;
+    }
+    100% {
+    --rotate: 360deg;
+    }
+}
+a 
+{
+    color: #212534;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight:lighter;
+    margin-top: 2rem;
+}
+

@@ -1,0 +1,109 @@
+/* PARA EL INFORMACION GENERAL */
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
+
+:root {
+    --card-height: 80vh;
+    --card-width: calc(var(--card-height) /1.5);
+}  
+
+.box-Infor_Gene
+{
+    text-align: center;
+    margin: 3%;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100;
+    background: #060c21;
+    font-family: 'Poppons', sans-serif;
+    border-radius: 15%;
+}
+
+
+.box-Infor_Gene {
+    background: #030613;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: rgba(155, 27, 25, 20);
+    cursor: pointer;
+}
+
+.box-Infor_Gene:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+}
+
+.box-Infor_Gene:hover:before, 
+.box-Infor_Gene:hover:after {
+    animation: none;
+    opacity: 0;
+}
+
+
+.box-Infor_Gene::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+    var(--rotate)
+    , #ecaa37, #e82727 43%, #ffea05);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.box-Infor_Gene::after
+{
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+    var(--rotate)
+    , #ecaa37, #e88e27 43%, #ff0505);
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+}  
+
+
+@keyframes spin {
+    0% {
+    --rotate: 0deg;
+    }
+    100% {
+    --rotate: 360deg;
+    }
+}
+
+a {
+    color: #f10ec0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight:lighter;
+    margin-top: 2rem;
+}
+

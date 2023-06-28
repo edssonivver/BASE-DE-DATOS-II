@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inicio</title>
+    <link rel="shortcut icon" href="imagenes/Imagen secun/favicon-32x32.png" type="image/x-icon">
+    <!-- Llamando al icono cabeza -->
+    <link rel="stylesheet" href="Stylescss/CustomStyle.css"/>
+    <!-- Para la navegacion de pagina -->
+    <link rel="stylesheet" href="Stylescss/Navegation.css"/>
+
+    <!-- Para Cada Targeta -->
+    <link rel="stylesheet" href="Stylescss/StyleRedes.css"/>
+    <link rel="stylesheet" href="Stylescss/Targetas1_v1.css"/>
+    <link rel="stylesheet" href="Stylescss/Targetas2_v1.css"/>
+    <link rel="stylesheet" href="Stylescss/Targetas3_v1.css"/>
+    <link rel="stylesheet" href="Stylescss/Targetas4_v1.css"/>
+    
+
+
+        <!-- para el Footer (REDES SOCIALES)-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous"/>
+
+</head>
+
+<body class="Cuerpo">
+
+    <header class="container-Princ">
+        <div class="text-titulo-principal">
+            <h1>PÁGINA PRINCIPAL FRANZISCO</h>
+        </div>
+        
+        <hr/>   
+
+            <nav>
+                <div class="Navegation" style="font-size: 20px;">
+                    <ul> 
+                        <li>
+                            <a href="https://unifranz.edu.bo/" target="_blank">
+                                <img src="imagenes/LogoPrincipalv2.png" alt="Logo Principal" height="30px">
+                            </a>
+                        </li>
+                        <li >
+                            <a href="Informacion_General_V1.html" target="_blank"><span style="color: white;">Informacion General</span></a>
+                        </li>
+                        <li >
+                            <a href="chatbott_jhona/chatweb/chatweb.html" target="_blank"><span style="color: white;">Preguntas Frecuentes</span></a>
+                        </li>
+                        <li >
+                            <a href="FRONTEND/base.html" target="_blank"><span style="color: white;">Chat Bot</span></a>
+                        </li>
+                        <li >
+                            <a href="https://api.whatsapp.com/send?phone=+1 (555) 022 3814&text=%C2%A1Hola!%20Quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Unifranz" target="_blank"><span style="color: white;">Ayuda Tarea</span></a>
+                        </li>
+                    </ul>    
+                </div>
+            </nav>
+    </header>
+
+    <main class="box-all">
+        
+        <!-- PARTE DE INFORMACION GENERAL -->
+        <section class="box-Infor_Gene" >
+            <div>
+                <h3>
+                    <a style="color: white;" href="Informacion_General_V1.html" target="_blank">INFORMACION GENERAL</a>
+                </h3>
+                <a href="Informacion_General_V1.html" target="_blank"> <img src="imagenes/informacion.png " alt="Logo Informacion General" height="195px"/> </a>
+                <a href="Informacion_General_V1.html" target="_blank"> <p style="color: white;"> Datos útiles y confiables en un solo lugar, explora nuestra sección de Información General y amplía tus conocimientos en un instante. </p> </a>   
+            </div>
+        </section>
+
+        <!-- PARTE DE PREGUNTAS FRECUENTES CHAT BOT AGREGAR-->
+        <section class="box-Preg_frec" onclick="showChatbot()">
+            <div>
+                <h3>
+                    <a style="color: white;" href="chatbott_jhona/chatweb/chatweb.html">PREGUNTAS FRECUENTES</a>
+                </h3> 
+                <a href="chatbott_jhona/chatweb/chatweb.html"> <img src="imagenes/fqa.png " alt="Logo Preguntas Frecuentes" height="195px"/> </a>
+                <a href="chatbott_jhona/chatweb/chatweb.html"> <p style="color: white;"> Respuestas rápidas y claras a tus preguntas más comunes. Resuelve tus dudas de manera sencilla y eficiente. Estamos aquí para ayudarte.</p> </a>
+            </div>
+    
+            <script>
+                function showChatbot() {
+    
+                    var body = document.body;
+                    var div = document.createElement("div");
+                    div.className = "phone-container";
+    
+                    // contenido del html chatweb 
+                    div.innerHTML = `<link rel="stylesheet" type="text/css" href="estilo.css">
+                    <div class="chat-header">
+                    Chatbot
+                    </div>
+                    <div class="chat-messages" id="user-message"></div>
+                    <div class="chat-input-container">
+                    <input type="text" id="chat-input" class="chat-input" placeholder="Escribe tu mensaje...">
+                    <button id="send-button" class="send-button" onclick="sendMessage()">
+                    <span class="send-icon"></span>
+                    </button>
+                    </div>
+                    `;
+    
+                    // Reemplaza
+                    body.innerHTML = "";
+                    body.appendChild(div);
+                    //script.js
+                    var script = document.createElement("script");
+                    script.src = "script.js";
+                    body.appendChild(script);
+                }
+            </script>
+        </section>
+
+        <!-- PARTE DE CHAT BOT -->
+        <section class="Box-ChaBot">
+                <div>
+                    <h2>
+                        <a style="color: white;" href="FRONTEND/base.html">CHAT BOT</a>  
+                    </h2> 
+                    <a href="FRONTEND/base.html" target="_blank"> <img src="imagenes/botchat.png" alt="Logo Chat Bot" height="200 px"/> </a>
+                    <a href="FRONTEND/base.html" target="_blank"> <p style="color: white;">¿Tienes Preguntas? No dudes en Escribirme</p> </a>
+                </div>
+        </section>
+
+        <!-- PARTE DE AYUDA TAREAS -->
+        <section class="box-Ayuda-Tarea">
+            <div>
+                <h2>
+                    <a style="color: white;" href="Ayuda_Tarea_V1.html">AYUDA TAREAS</a>
+                </h2> 
+                <a href="https://api.whatsapp.com/send?phone=+1 (555) 022 3814&text=%C2%A1Hola!%20Quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Unifranz"  target="_blank"> <img src="imagenes/AyuTar.jpg" alt="Logo Chat Bot" width="220px"/><i class="fa fa-whatsapp fa-2x" aria-hidden="true" style="color: rgb(77, 246, 74);"></i></a></li>
+                <a href="https://api.whatsapp.com/send?phone=+1 (555) 022 3814&text=%C2%A1Hola!%20Quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Unifranz""> <p style="color: white;">Herrameienta Util Que te Ayudara en Realizar Tareas y Trabajos</p> </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="ft__fin">
+        <div>
+            <div id="ft__text">
+                <h4>
+                    Copyright &#169; <span id="año-actual" ></span> - Todos los Derechos Reservados
+                    <br> Desarrolador por <b>PHYR&#216;&#36;</b>
+                </h4>
+                <div class="ft__p">
+                    <p>Siguenos en nuestras Redes Sociales</p>
+                </div>
+            </div>
+            <div class="footer-redes">
+                <ul class="footer-redes">
+                    <li class="facebook"><a href="https://www.facebook.com/search/top?q=unifranz" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/UnifranzBolivia"  target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/unifranz/?hl=es" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>    
+                    <li class="whatsapp"><a href="https://api.whatsapp.com/send?phone=71502211&text=%C2%A1Hola!%20Quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Unifranz"  target="_blank"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="google"><a href="mailto:admisiones@unifranz.edu.bo"  target="_blank"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class="ft__img">
+                    <img class="ft__img" src="imagenes/UNIFRANZ_logo.png"/>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="Arch_js/javascrip.js"></script>
+</html>

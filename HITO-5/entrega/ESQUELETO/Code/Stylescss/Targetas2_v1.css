@@ -1,0 +1,107 @@
+/* PARA CUSTOM DE PREGUNTAS FRECUENTES*/
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
+
+:root {
+    --acard-height: 80vh;
+    --acard-width: calc(var(--card-height) /1.5);
+}  
+
+.box-Preg_frec
+{
+    text-align: center;
+    margin: 3%;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100;
+    background: #060c21;
+    font-family: 'Poppons', sans-serif;
+    border-radius: 15%;
+}
+
+
+.box-Preg_frec{
+    background: #060c21;
+    width: var(--acard-width);
+    height: var(--acard-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: rgb(88 199 250 / 20);
+    cursor: pointer;
+}
+
+.box-Preg_frec:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+}
+
+.box-Preg_frec:hover:before, 
+.box-Preg_frec:hover:after {
+    animation: none;
+    opacity: 0;
+}
+
+
+.box-Preg_frec::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #1fe711,#f3390b);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.box-Preg_frec::after
+{
+    position: absolute;
+    content: "";
+    top: calc(var(--acard-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--acard-height) / 6));
+    background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #1fe711,#f3390b);
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+}  
+
+
+@keyframes spin {
+    0% {
+    --rotate: 0deg;
+    }
+    100% {
+    --rotate: 360deg;
+    }
+}
+
+a {
+    color: #f10ec0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight:lighter;
+    margin-top: 2rem;
+}

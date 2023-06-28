@@ -1,0 +1,154 @@
+.ft__fin{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 15vh;
+    flex-wrap: wrap;
+}
+
+footer{
+    background: #000000;
+    color:#fff;
+    align-self: center;
+    width: 100%;
+    height: 50px;
+    text-align:center;
+}
+
+#ft__text{
+    margin: 2%;
+}
+
+.ft__p {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 124.5%;
+    left:76%;
+}
+
+
+
+/* Comenzando con el css de los logos */
+.footer-redes{
+    position: absolute;
+    top: 120%;
+    left:80%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+}
+
+.footer-redes{
+    list-style: none;
+}
+
+.footer-redes ul li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    text-align:center;
+    cursor:pointer; 
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li .fa {
+    color: white;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover.facebook {
+    border: 5px solid #1a33c6;
+    box-shadow: 0 0 15px #1a33c6;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover .fa-facebook {
+    color: #1a33c6;
+    text-shadow: 0 0 15px #1a33c6;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover.instagram {
+    border: 5px solid #bc2ab8;
+    box-shadow: 0 0 15px #bc2ab8;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover .fa-instagram {
+    color: #bc2ab8;
+    text-shadow: 0 0 15px #bc2ab8;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover .fa-whatsapp {
+    color: #4cd247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover.google {
+    border: 5px solid #d82313;
+    box-shadow: 0 0 15px #d82313;
+    transition: all 0.5s ease;
+}
+
+.footer-redes ul li:hover .fa-google {
+    color: #d82313;
+    text-shadow: 0 0 15px #d82313;
+    transition: all 0.5s ease;
+}
+
+/* RESPONSIVO */
+@media screen and (max-width: 640px){
+    .footer-redes{
+        width: 350px;
+    }
+    .footer-redes ul li {
+        margin-top: 10px;
+    }
+    .footer-redes ul li.whatsapp{
+        margin-left: 60px;
+    }
+}
+    
+@media screen and (max-width: 340px){
+    .footer-redes{
+        width: 150px;
+    }
+    .footer-redes ul li {
+        margin: 15px;
+    }
+    .footer-redes ul li.whatsapp{
+        margin-left: 15px;
+    }
+}
+
+.ft__img{
+    height: 60px;
+    position:absolute;
+    top: 15%;
+    left: -65%;
+    
+}

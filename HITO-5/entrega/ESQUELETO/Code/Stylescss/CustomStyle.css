@@ -1,0 +1,50 @@
+.Cuerpo
+{
+background-image: repeating-linear-gradient(
+    112.5deg, 
+    rgb(0,0,0) 0px, 
+    rgb(0,0,0) 14px,
+    transparent 14px, 
+    transparent 15px),
+    repeating-linear-gradient(
+        22.5deg, rgb(0,0,0) 0px, 
+        rgb(0,0,0) 14px,
+        transparent 14px, transparent 15px),
+        linear-gradient(90deg, hsl(146,54%,44%),
+        hsl(218,54%,44%),
+        hsl(290,54%,44%),
+        hsl(2,54%,44%),
+        hsl(74,54%,44%));
+}
+
+
+.box-all
+{
+    display:flex;
+}
+
+.text-titulo-principal
+{  
+    letter-spacing: 5px;
+    padding: 1px;
+    display: flex;
+    font-size: 1.5em;
+    color:rgb(255, 85, 0);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppons', sans-serif;
+    transition: 0.2s;
+    background: black;
+    justify-content: center;
+}
+
+.text-titulo-principal:hover
+{
+    color: white;
+    text-shadow:
+    #03e9f4 0 0 0px,
+    #03e9f4 0 0 25px,
+    #03e9f4 0 0 50px,
+    #03e9f4 0 0 100px;
+}

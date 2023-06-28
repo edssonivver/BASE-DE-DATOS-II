@@ -1,0 +1,46 @@
+nav{
+    text-decoration: none;
+}
+
+.Navegation{
+    margin: 3px;
+    padding: 1%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    align-items: center;
+    height: 100%;
+}
+
+.Navegation ul{
+    display: flex;
+    text-decoration: none;
+}
+
+.Navegation ul li{
+    color: white;
+    list-style: none;
+    margin: 0 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.Navegation ul li::after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%; 
+    transform: scaleX(0);
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Navegation ul li:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
